@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starter Income Hub</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #0b1020 0%, #111827 100%);
+      color: #f8fafc;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    .top {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(245, 158, 11, 0.14);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      color: #fde68a;
+      font-weight: 700;
+      font-size: 13px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: 46px;
+      line-height: 1.08;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      color: #cbd5e1;
+      font-size: 20px;
+      line-height: 1.5;
+      max-width: 780px;
+      margin-bottom: 26px;
+    }
+    .cta-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 16px 22px;
+      border-radius: 16px;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .btn-main {
+      background: linear-gradient(90deg, #f59e0b, #fb7185);
+      color: white;
+    }
+    .btn-alt {
+      border: 1px solid #334155;
+      background: rgba(255,255,255,0.04);
+      color: #f8fafc;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin: 24px 0 32px;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid #334155;
+      border-radius: 22px;
+      padding: 18px;
+      min-height: 170px;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    .card p {
+      margin: 0;
+      color: #cbd5e1;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+    .section {
+      margin-top: 36px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid #334155;
+      border-radius: 24px;
+      padding: 24px;
+    }
+    .section h2 {
+      margin: 0 0 14px;
+      font-size: 28px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      color: #cbd5e1;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+    .mini {
+      margin-top: 16px;
+      color: #94a3b8;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    @media (max-width: 760px) {
+      h1 { font-size: 34px; }
+      .sub { font-size: 18px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">Starter Income Hub · Beginner-Friendly</div>
+    <h1>Start Your Online Business the Simple Way</h1>
+    <div class="sub">
+      Looking for a beginner-friendly tool to build funnels, collect leads, send emails and start online without tech overwhelm? This is the simple setup many beginners start with.
+    </div>
+
+    <div class="cta-row">
+      <a class="btn btn-main" href="#" id="main-link">See the Beginner Setup</a>
+      <a class="btn btn-alt" href="#why">Why this works</a>
+    </div>
+
+    <div class="grid" id="why">
+      <div class="card">
+        <h3>Simple to start</h3>
+        <p>You do not need a complicated stack of tools to get moving. Beginners usually do better with one clear place to start.</p>
+      </div>
+      <div class="card">
+        <h3>Made for beginners</h3>
+        <p>This kind of setup is easier to understand when you are still learning funnels, emails and online business basics.</p>
+      </div>
+      <div class="card">
+        <h3>Less overwhelm</h3>
+        <p>A clean all-in-one path can help you focus on taking action instead of getting lost in too many tools.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>What you can do with it</h2>
+      <ul>
+        <li>Build a simple funnel for your first offer or lead magnet</li>
+        <li>Create pages without needing a complicated setup</li>
+        <li>Start email marketing in a beginner-friendly way</li>
+        <li>Keep your first online business system easier to manage</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Good fit if you are...</h2>
+      <ul>
+        <li>Starting from zero</li>
+        <li>Trying to avoid tech overwhelm</li>
+        <li>Looking for a simple online business setup</li>
+        <li>Interested in affiliate marketing, funnels, or beginner digital business</li>
+      </ul>
+      <div class="cta-row" style="margin-top:22px; margin-bottom:0;">
+        <a class="btn btn-main" href="#" id="bottom-link">Open the Simple Setup</a>
+      </div>
+      <div class="mini">
+        This page may include an affiliate recommendation. Only use tools that make sense for your situation and budget.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const affiliateLink = 'https://systeme.io/?sa=sa0267238016688aaa9ff44961b96a8ae2cc714bef';
+    document.getElementById('main-link').href = affiliateLink;
+    document.getElementById('bottom-link').href = affiliateLink;
+  </script>
+</body>
+</html>
